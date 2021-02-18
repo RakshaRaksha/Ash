@@ -200,27 +200,14 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="🧲Add Ash Ketchum to your group!",
+                            text="🧲Add Pagal to your group!",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="⚙️ Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
-                         InlineKeyboardButton(
-                             text="🔔Updates Channel",
-                             url="https://t.me/BotLabUpdates")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="📖 Getting Started Guide",
-                             url="https://t.me/BotLabUpdates/3")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="💾 Source Code.",
-                             url="https://github.com/Uday0011/Ash")
+                             url=f"https://t.me/BINDLESS_BITCHES")
                      ]]))
     else:
         update.effective_message.reply_text(
